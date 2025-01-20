@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="#e0f2fe"
+    android:layout_gravity="center_vertical">
+
+    <EditText
+        android:id="@+id/taskEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="3dp"
+        android:textSize="16sp"
+        android:background="@android:drawable/edit_text"
+        android:textColor="#333333"
+        android:padding="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/taskCheckBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Botão de salvar -->
+    <Button
+        android:id="@+id/btnSafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="16sp"
+        android:backgroundTint="@color/laranja"
+        android:textColor="#ffffff"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/taskCheckBox"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!--botao de apagar a tarefa android:visibility="gone" -->
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:backgroundTint="#7f1d1d"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="8dp"
+        android:layout_gravity="end"
+        android:visibility="gone"/>
+
+    <CheckBox
+        android:id="@+id/taskCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>

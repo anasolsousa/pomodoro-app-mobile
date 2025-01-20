@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "370870707926",
+    "project_id": "pomodorofocus-a1f33",
+    "storage_bucket": "pomodorofocus-a1f33.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370870707926:android:4174446571fe8146484b77",
+        "android_client_info": {
+          "package_name": "anabianca.pomodorofocusapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0yxe4_vdtJCOxA8grT8HekzSjct5Q_WQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
